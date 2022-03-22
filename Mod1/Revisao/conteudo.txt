@@ -1,0 +1,30 @@
+- HTML
+    - tags
+    - importar fonte
+    - importar imagem do pc
+    - organização
+    - estrutura
+    - semântica
+- CSS
+    - estilos 
+    - margin
+    - padding
+    - reset css
+    - transitions
+    - pseudo-class
+    - pseudo-elementos
+    - flex-box
+    - media-queries (responsividade)
+- GIT - GITHUB
+    - O que é git - github
+    - comandos do git
+    - como criar um repositorio
+-vscode
+    - Temas
+    - atalhos
+    - extensões
+- Google devTools
+    - Quando usar
+    - Como usar
+    - inspecionar elementos
+    - box model

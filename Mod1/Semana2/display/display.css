@@ -1,0 +1,21 @@
+span {
+  font-weight: bold;
+  color: red;
+}
+.inline {
+  display: inline;
+  background-color: royalblue;
+  width: 150px;
+}
+.block {
+  display: block;
+  background-color: royalblue;
+  width: 150px;
+  height: 150px;
+}
+.inline-block {
+  display: inline-block;
+  background-color: royalblue;
+  width: 150px;
+  height: 150px;
+}

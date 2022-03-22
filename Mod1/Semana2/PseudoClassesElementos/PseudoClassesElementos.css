@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+body::selection{
+    background-color: blue;
+    color: tomato;
+}
+
+.container {
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: cadetblue;
+  color: white;
+  font-weight: 900;
+  border: 1px solid rgb(33, 50, 51);
+  border-radius: 5px;
+}
+
+button:hover{
+    background-color: yellowgreen;
+}
+button:active{
+    background-color: tomato;
+    width: 120px;
+    height: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
+  color: brown;
+  font-size: 20px;
+}
+a:visited{
+    color: violet;
+}
+
+.primeira-letra{
+    font-size: 30px;
+}
+.primeira-letra::first-letter{
+    font-size: 50px;
+    color: tomato;
+    font-family: monospace;
+}
+
+ul {
+  width: 100%;
+}
+li {
+  margin: 2px;
+  padding: 8px 16px;
+  list-style-type: none;
+  background-color: rgb(240, 240, 250);
+}
+
+/* li:nth-child(even){
+    background-color: tomato;
+}
+li:nth-child(odd){
+    background-color: green;
+}
+li:nth-child(odd):hover{
+    background-color: blue;
+} */
+
+li:nth-child(3n + 6){
+    background-color: brown;
+}
+
+.antes::before{
+    content: '★' ;
+    color: brown;
+    font-size: 50px;
+}
+
+.depois::after{
+    content: '✪';
+    color: brown;
+    font-size: 50px;
+}
+
+.selecionado::selection{
+    background-color: brown;
+    color: black;
+}
