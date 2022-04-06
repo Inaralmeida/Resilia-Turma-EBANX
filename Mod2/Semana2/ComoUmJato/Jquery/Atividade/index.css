@@ -1,0 +1,19 @@
+body {
+  background-color: #3b4149;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lbl {
+  color: #e8e4e2;
+  text-align: center;
+  font-family: "Verdana";
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
