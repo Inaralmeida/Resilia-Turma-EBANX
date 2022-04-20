@@ -13,15 +13,15 @@ class Anotacoes {
   }
 
   criaNota(titulo, notas) {
-    try {
-      if (typeof titulo === "string" && typeof notas === "string") {
-        this.setTitulo(titulo);
-        this.setNotas(notas);
-      } else {
-        throw new Error("Criação de notas - dados inválidos");
-      }
-    } catch (error) {
-      console.error(error);
+    if (
+      typeof titulo === "string" &&
+      typeof notas === "string" &&
+      notas.length > 10
+    ) {
+      this.setTitulo(titulo);
+      this.setNotas(notas);
+    } else {
+      throw new Error("Criação de notas - dados inválidos");
     }
   }
 }
